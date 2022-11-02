@@ -1,0 +1,6 @@
+RewriteEngine On
+
+
+RewriteRule ^([a-z]{0})$ index.php
+RewriteRule ^([a-z]+)$ $1.php
+RewriteRule ^([a-z]+)/([a-z]+)$ $1.php?view=$2
